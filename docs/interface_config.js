@@ -33,7 +33,7 @@ var interfaceConfig = {
 //    "etherpad",
 //    "sharedvideo",
     "settings",
-    "participants"
+    "participants",
     "raisehand",
     "videoquality",
     "filmstrip",
