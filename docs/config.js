@@ -20,7 +20,7 @@ var config = {
       "max": 1080
     }
   }},
-  "hiddenDomain": "recorder.jitsi.balaramadurai.net",
+  "hiddenDomain": "recorder.meet.jit.si",
   "videoQuality": {
     "minHeightForQualityLvl": {
       "720": "high",
@@ -36,14 +36,14 @@ var config = {
   "enableLipSync": false,
   "minHDHeight": 540,
   "enableLayerSuspension": true,
-  "websocket": "wss://jitsi.balaramadurai.net:5443/ws/",
+  "websocket": "wss://meet.jit.si:5443/ws/",
   "startAudioMuted": 9,
   "channelLastN": -1,
   "adaptiveLastN": false,
   "hosts": {
-    "domain": "jitsi.balaramadurai.net",
-    "focus": "focus.jitsi.balaramadurai.net",
-    "muc": "conference.jitsi.balaramadurai.net"
+    "domain": "meet.jit.si",
+    "focus": "focus.meet.jit.si",
+    "muc": "conference.meet.jit.si"
   },
   "testing": {
     "capScreenshareBitrate": 1,
@@ -63,7 +63,7 @@ var config = {
   "maxFullResolutionParticipants": -1,
   "useStunTurn": false,
   "openBridgeChannel": "websocket",
-  "bosh": "https://jitsi.balaramadurai.net:5443/http-bind/",
+  "bosh": "https://meet.jit.si:5443/http-bind/",
   "enableNoAudioDetection": true,
   "defaultLanguage": "en",
   "useRoomAsSharedDocumentName": false,
@@ -93,6 +93,6 @@ var config = {
   "disableSimulcast": true,
   "startAudioOnly": false,
   "ofmeetLiveStream": false,
-  "focusUserJid": "focus@jitsi.balaramadurai.net",
+  "focusUserJid": "focus@meet.jit.si",
   "enableRemb": true
 };
